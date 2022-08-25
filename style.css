@@ -86,7 +86,7 @@
 }
 
 .menu-items li:hover {
-    color: hotpink;
+    color: darkred;
     cursor: pointer;
 }
 
@@ -97,7 +97,9 @@
 
 .banner-btn {
     padding: 15px 30px;
-    background-color: pink;
+    background-color: red;
+    font-size: 12px;
+    color: white;
 }
 
 .card1 {
@@ -105,10 +107,27 @@
     height: 200px;
     border: 1px solid gray;
     text-align: center;
+    box-shadow: 8px 8px 16px red;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+    color: white;
+
+}
+
+.card1:hover {
+    border: 1px solid darkred;
+    margin-top: -15px;
+    transition: .8ms;
 }
 
 .section-two {
     margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
 }
 
 .title2 {
@@ -116,9 +135,70 @@
     font-size: 40px;
     font-weight: solid;
     margin-bottom: 20px;
+    margin-top: 70px;
+    background-color: red;
+    padding: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 10px;
+    box-shadow: white;
 }
 
 .gym-icon {
     width: 50px;
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 65px;
+}
+
+.about-left {
+    width: 700px;
+
+}
+
+.about-right {
+    width: 700px;
+
+}
+
+.workout-image img {
+    width: 250px;
+    height: 450px;
+    transform: skewY(-15deg);
+}
+
+.workout-image {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.btn-text {
+    text-decoration: none;
+    color: white;
+}
+
+.workout-container {
+    width: 850px;
+    height: 550px;
+    /*background-color:black;*/
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+
+
 
 }
