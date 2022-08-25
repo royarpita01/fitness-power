@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*.container {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    position: absolute;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}*/
+.menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+.align {
+    text-align: justify;
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.banner-img {
+    float: right;
+
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+
+.banner-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
+
+.img1 {
+    height: 500px;
+    width: 400px;
+    margin-bottom: 100px;
+    padding-right: 50px;
+    margin-right: 500px;
+}
+
+.banner-text {
+    color: red;
+    font-size: 25px;
+
+}
+
+.tittle1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.banner-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu-items li {
+    list-style: none;
+    margin: 5px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.menu-items li:hover {
+    color: hotpink;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.banner-btn {
+    padding: 15px 30px;
+    background-color: pink;
+}
+
+.card1 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.section-two {
+    margin-top: 70px;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: solid;
+    margin-bottom: 20px;
+}
+
+.gym-icon {
+    width: 50px;
+
+}
